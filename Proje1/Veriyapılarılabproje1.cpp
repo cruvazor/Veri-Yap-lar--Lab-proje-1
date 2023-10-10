@@ -7,16 +7,22 @@ int main()
     int m;
     cout << "Enter the  number of elements.";
     cin >> m;
-    int arr[30][30];
+    int arr[30][30][30];
     cout << "Enter the elements.";
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < m; j++) {
-            cin >> arr[i][j];
+            for (int k = 0; k < m; k++){
+
+                cin >> arr[i][j][k];
+            }
         }
     }
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < m; j++) {
-            cout << arr[i][j] <<"";
+            for (int k = 0; k < m; k++){
+
+                cout << arr[i][j][k] < "";
+            }
         }
     }
 
