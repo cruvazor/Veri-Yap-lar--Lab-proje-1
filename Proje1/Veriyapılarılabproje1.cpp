@@ -7,7 +7,7 @@ int main()
     int m;
     cout << "Enter the  number of elements.";
     cin >> m;
-    int arr[20][20];
+    int arr[30][30];
     cout << "Enter the elements.";
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < m; j++) {
